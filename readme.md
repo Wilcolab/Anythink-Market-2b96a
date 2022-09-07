@@ -9,5 +9,16 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
 ## First setup
+* Download the [Docker](https://docs.docker.com/get-docker/) as per your OS
+  * :heavy_exclamation_mark: Don't forget to read the system requirements
+  * In windows, if you are downloading from WSL 2 Backend, then you must download WSL. Download from [here](https://docs.microsoft.com/en-us/windows/wsl/install-on-server)
+* After downloading, run the setup. It'll take some time to complete
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+## Run Docker
+* Then, simply run the docker and make sure that it is running perfectly fine by using command `docker-v`
+  * run this command in your terminal and it will display the version of docker.
+  
+![docker -v](https://user-images.githubusercontent.com/75534912/188781507-c76ce267-a040-42a1-beb5-c13acc4d7325.jpg)
+
+* open the root dierectory of Anythink in terminal and use command `docker-compose up`
+* If docker is runnign perfectly fine then, it wll start running containers and your backend and frontend get successfully link to each other.
